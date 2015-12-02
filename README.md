@@ -8,7 +8,7 @@ Results are 4 - 5 times faster than [geoip-lite](https://github.com/bluesmoon/no
 
 This is used in production at [Playtomic](https://playtomic.com/) up to about 20,000 times a second.
 
-Benchmarks on my 2011 Macbook Air whilst running lots of software.  The test took the middle 10 results from 20 iterations and averaged them.  The APIs are interchangeable so tests  were identical.
+Benchmarks on a 2011 Macbook Air whilst running lots of software. The test took the middle 10 results from 20 iterations and averaged them. The APIs are interchangeable so tests were identical.
 
 	geoip-native:	average: 1540.3ms / million lookups
 	geoip-lite: 	average: 8375.3ms / million lookups
@@ -18,11 +18,11 @@ Benchmarks on my 2011 Macbook Air whilst running lots of software.  The test too
 1. Comes with the [standard CSV database by MaxMind](http://www.maxmind.com/app/geolite) which may require updating.
 
 ## How to use
-1. git clone https://github.com/benlowry/node-geoip-native
+1. git clone https://github.com/Splaktar/node-geoip-native
 2. cd node-geoip-native
 3. node test.js
 
-or just ```npm install geoip-native```
+or just `npm install devintent-geoip-native`
 
 ## Methods
 
